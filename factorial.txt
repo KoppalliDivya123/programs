@@ -1,0 +1,10 @@
+a=int(input())
+b=1
+i=1
+if(a==0):
+    print("Factorial is not possible")
+else:
+    while i<=a:
+        b=b*i
+        i+=1
+print("the factorial of "+str(a)+" is "+str(b))

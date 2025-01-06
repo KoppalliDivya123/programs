@@ -1,0 +1,6 @@
+a=int(input())
+b=1
+while b<=10:
+    t=a*b
+    print(str(a)+"*"+str(b)+"="+str(t))
+    b+=1
